@@ -1,5 +1,16 @@
 /* FONTS IMPORT */ 
 
+@font-face {
+    font-family: 'belloscript';
+    src: url('Bello-Script.ttf');
+}
+
+@font-face {
+    font-family: 'omnesbold';
+    src: url('mnes-bold_bigfontsite.com.');
+}
+
+
 
 /*CSS HEADER DEBUT */
 
@@ -10,7 +21,7 @@ body {
     padding: 0px;
     background: url('bodybackground.jpg');
     background-repeat: all;
-    
+
     
 }
 
@@ -18,7 +29,7 @@ header {
     width: 100%;
     padding: 0px;
     margin: 0px;
-    background: rgba(236, 209, 150, 0.8) ;
+    background: rgba(255, 255, 255, 0.9) ;
     box-shadow: 0px 5px 10px 5px grey;
     
     
@@ -71,6 +82,7 @@ header {
    max-width: 100%;
    height: auto;
    width: 200px;
+   /* ZOOM QUAND MOUSEOVER TEMPS */
     -webkit-transition: all 1s ease; 
     -moz-transition: all 1s ease; 
     -ms-transition: all 1s ease; 
@@ -82,6 +94,7 @@ header {
     max-width: 100%;
     height: auto;
     width: 200px;
+    /* ZOOM QUAND MOUSEOVER SCALE */
     -webkit-transform:scale(1.2); 
     -moz-transform:scale(1.2);
     -ms-transform:scale(1.2); 
@@ -122,12 +135,13 @@ header {
 main {
     width: 80%;
     margin: 0% auto;
-    background-color: rgb(216, 191, 206, 0.8);
+    background-color: rgba(255, 165, 0, 0.75);
     height: auto;
     text-align: center;
     padding-top: 80px;
     padding-bottom: 100px;
 }
+
 
 
 .appboxcentrale {
@@ -182,6 +196,23 @@ main {
     text-align: center;
 }
 
+.miniboxtitle {
+    font-size: 30px;
+}
+
+.miniboxslogan {
+    font-size: 20px;
+
+}
+
+.miniboxtxt {
+    font-size:15px;
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
+}
 
 /*CSS MAIN GENERAL END */
 
@@ -191,23 +222,49 @@ main {
     background-color: black;
     margin-left: auto;
     margin-right: auto;
+    font-family:fantasy;
 }
 
 
-#titlefreeletics {
-    font-family:freeletic;
+#descfreeletics {
+    font-family:Oswald;
+    font-weight: 600;
 }
 
 
 /* STYLE FREELETICS BOX END*/
 
+
+/* STYLE SHAZAM BOX START */
+
 #appminiboxshz {
     background-color: rgb(13, 140, 255);
+    font-family:Lilita One;
+    
 }
+
+#descshazam {
+    font-family:Dosis;
+    font-weight: 600;
+    
+}
+
+/* STYLE SHAZAM BOX START */
+
+/* STYLE BONBON BOX START*/
+
 
 #appminiboxbb {
     background-color: rgb(255, 0, 154);
+    font-family:belloscript;
 }
+
+#descbonbon {
+    font-family:Courgette;
+}
+
+
+/* STYLE BONBON BOX END*/
 
 
 
