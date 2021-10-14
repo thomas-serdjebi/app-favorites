@@ -1,7 +1,5 @@
 /* FONTS IMPORT */ 
 
-@import url(//db.onlinewebfonts.com/c/5ec42708a5dcf4ca2d7a044a2aa63d68?family=Freeletics+TheSans);
-
 
 /*CSS HEADER DEBUT */
 
@@ -194,18 +192,9 @@ main {
     margin-right: auto;
 }
 
-@font-face {
-    font-family: "Freeletics TheSans"; 
-    src: url("//db.onlinewebfonts.com/t/5ec42708a5dcf4ca2d7a044a2aa63d68.eot");
-    src: url("//db.onlinewebfonts.com/t/5ec42708a5dcf4ca2d7a044a2aa63d68.eot?#iefix") format("embedded-opentype"), 
-    url("//db.onlinewebfonts.com/t/5ec42708a5dcf4ca2d7a044a2aa63d68.woff2") format("woff2"),
-     url("//db.onlinewebfonts.com/t/5ec42708a5dcf4ca2d7a044a2aa63d68.woff") format("woff"), 
-     url("//db.onlinewebfonts.com/t/5ec42708a5dcf4ca2d7a044a2aa63d68.ttf") format("truetype"), 
-     url("//db.onlinewebfonts.com/t/5ec42708a5dcf4ca2d7a044a2aa63d68.svg#Freeletics TheSans") format("svg"); 
-}
 
 #titlefreeletics {
-    font-family:"Freeletics TheSans";
+    font-family:freeletic;
 }
 
 
