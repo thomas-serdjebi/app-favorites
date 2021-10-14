@@ -1,4 +1,9 @@
-/* CSS HEADER DEBUT */
+/* FONTS IMPORT */ 
+
+@import url(//db.onlinewebfonts.com/c/5ec42708a5dcf4ca2d7a044a2aa63d68?family=Freeletics+TheSans);
+
+
+/*CSS HEADER DEBUT */
 
 body {
     width: 100%;
@@ -100,7 +105,7 @@ header {
 
 #header_logoclash {
     position: relative;
-    bottom: 15px;
+    bottom: 30px;
     max-width: 100%;
     height: auto;
     width: 130px;
@@ -111,32 +116,115 @@ header {
 
 /* CSS HEADER FIN */
 
+
+
+/*CSS MAIN GENERAL START */
+
 main {
     width: 80%;
     margin: 0% auto;
-    background-color: thistle;
-    opacity:80%;
+    background-color: rgb(216, 191, 206, 0.8);
     height: auto;
     text-align: center;
+    padding-top: 80px;
+    padding-bottom: 100px;
 }
 
 
 .appboxcentrale {
-    text-align: center;
-    width: 400px;
-    height: 400px;
+   
+    
+   
 }
 
 .appboxbas {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-top: 80px;
 
 }
 
 .appminibox {
     text-align: center;
-    width: 400px;
-    height: 400px;
-    border: 3px solid black;&
+    width: 500px;
+    height: 500px;
+    border-radius: 20%;
+    color: white;
 }
+
+.iconesbox {
+    width: 100px;
+    height: 100px; 
+    padding-top: 10px;
+    
+}
+
+.miniboxtitle {
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+
+.miniboxslogan {
+    margin-bottom: 20px;
+}
+
+
+
+
+.miniboxtxt {
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: justify;
+}
+
+.verspage {
+    text-align: center;
+}
+
+
+/*CSS MAIN GENERAL END */
+
+
+/* STYLE FREELETICS BOX START*/
+#appminiboxfl {
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@font-face {
+    font-family: "Freeletics TheSans"; 
+    src: url("//db.onlinewebfonts.com/t/5ec42708a5dcf4ca2d7a044a2aa63d68.eot");
+    src: url("//db.onlinewebfonts.com/t/5ec42708a5dcf4ca2d7a044a2aa63d68.eot?#iefix") format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/5ec42708a5dcf4ca2d7a044a2aa63d68.woff2") format("woff2"),
+     url("//db.onlinewebfonts.com/t/5ec42708a5dcf4ca2d7a044a2aa63d68.woff") format("woff"), 
+     url("//db.onlinewebfonts.com/t/5ec42708a5dcf4ca2d7a044a2aa63d68.ttf") format("truetype"), 
+     url("//db.onlinewebfonts.com/t/5ec42708a5dcf4ca2d7a044a2aa63d68.svg#Freeletics TheSans") format("svg"); 
+}
+
+#titlefreeletics {
+    font-family:"Freeletics TheSans";
+}
+
+
+/* STYLE FREELETICS BOX END*/
+
+#appminiboxshz {
+    background-color: rgb(13, 140, 255);
+}
+
+#appminiboxbb {
+    background-color: rgb(255, 0, 154);
+}
+
+
+
+
+
+
+
+
+
+
