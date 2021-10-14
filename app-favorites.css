@@ -279,7 +279,7 @@ footer {
 
 .boxiosvsandroid {
     display: flex;
-    flex-direction: row;
+    flex-direction: row;  
     padding-top: 20px;
 }
 
